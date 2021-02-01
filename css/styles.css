@@ -1,10 +1,12 @@
 #title {
   background-color: #ff4c68;
   color: #fff;
+  text-align: left;
 }
 
 #features {
-  padding: 7% 15%;
+  position: relative;
+  padding: 5% 15%;
 }
 
 .container-fluid {
@@ -29,11 +31,6 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   font-weight: 900;
-}
-
-.iphoneimage {
-    overflow: hidden;
-
 }
 
 /* Navigation Bar */
@@ -64,10 +61,18 @@ h3 {
   margin: 5% 3% 5% 0;
 }
 
+#title .container-fluid {
+  padding: 3% 15% 7%;
+
+}
+
 /* Title image */
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
 }
 
 .feature-text {
@@ -81,4 +86,7 @@ margin-bottom: 1rem;
 }
 .icon:hover {
   color: #ff4c68;
+}
+.white-section {
+  background-color: #fff;
 }
